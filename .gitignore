@@ -1,0 +1,24 @@
+# Auth / session files (contains cookies and credentials)
+*.session
+*.session.json
+cfwives_cookies.json
+
+# Export data (user content — large, auto-generated)
+export/
+export
+
+# Downloaded images (generated during export)
+export/**/images/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Browser / Playwright
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
